@@ -33,7 +33,7 @@ h1 {
 header.header {
   max-width: calc(var(--main-width) + var(--gap) * 2);
   margin: auto;
-  padding: var(--gap) 0;
+  padding: 52px 0 0 0;
 }
 
 /* /search/ */
