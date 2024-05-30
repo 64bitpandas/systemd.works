@@ -5,7 +5,7 @@ theme: PaperMod
 
 params:
   env: production
-  description: system engineering papers.
+  description: we read & discuss systems engineering papers.
   disableThemeToggle: true
   disableAnchoredHeadings: true
   hideFooter: true
