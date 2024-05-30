@@ -1,0 +1,32 @@
+baseURL: https://systemd.works/
+languageCode: en-us
+title: systemd.works
+theme: PaperMod
+
+params:
+  env: production
+  description: system engineering papers.
+  disableThemeToggle: true
+  disableAnchoredHeadings: true
+  hideFooter: true
+
+  editPost:
+    URL: "https://github.com/64bitpandas/systemd.works/content"
+    Text: "Edit this page" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+
+menu:
+  main:
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 5
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20

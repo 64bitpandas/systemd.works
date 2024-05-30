@@ -1,0 +1,65 @@
+* {
+  /* max width for content container */
+  --main-width: 680px;
+  /* homepage background */
+  --code-bg: #faf4ed;
+  /* post background */
+  --theme: #faf4ed;
+  /* used by cards in /posts/ */
+  --entry: #fffefe;
+}
+
+.main {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+}
+
+.post-content h3,
+.post-content h2 {
+  font-family: "Libre Baskerville", serif;
+  margin: 56px auto 24px;
+}
+
+.logo a {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+/* header contents */
+.logo, #menu {
+  margin: 36px 0 calc(36px - var(--gap)) 0;
+}
+
+header.header {
+  max-width: calc(var(--main-width) + var(--gap) * 2);
+  margin: auto;
+  padding: 0 var(--gap);
+}
+
+/* /search/ */
+#searchbox input {
+  font-weight: normal;
+  font-family: "Libre Baskerville", serif;
+}
+
+/* post cards on homepage */
+.first-entry {
+  min-height: 0px;
+}
+
+.first-entry .entry-content,
+.first-entry .entry-header,
+.first-entry h2 {
+  margin: 0px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: normal;
+}
+
+.first-entry h2 {
+  font-size: 20px;
+}
