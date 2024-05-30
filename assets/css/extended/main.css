@@ -30,15 +30,10 @@ h1 {
   font-size: 28px;
 }
 
-/* header contents */
-.logo, #menu {
-  margin: 36px 0 calc(36px - var(--gap)) 0;
-}
-
 header.header {
   max-width: calc(var(--main-width) + var(--gap) * 2);
   margin: auto;
-  padding: 0 var(--gap);
+  padding: var(--gap) 0;
 }
 
 /* /search/ */

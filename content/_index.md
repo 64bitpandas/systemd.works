@@ -10,10 +10,10 @@ Sound interesting? [**RSVP for the next session here.**](https://lu.ma/calendar/
 ### 👀 Currently Reading
  - [SIEVE is Simpler than LRU: an Efficient Turn-Key Eviction Algorithm for Web Caches](https://yazhuozhang.com/assets/publication/nsdi24-sieve.pdf)
 
-### Future Papers
+### 📆 Future Papers
 Visit the [Notion board](https://handsomely-notify-e9a.notion.site/Research-Papers-1fce23290ed841bba16c125c33d5bdec) to view the backlog and suggest new papers.
 
-### FAQ
+### ℹ️ FAQ
  - Who's running this?
     - [Ben](https://bencuan.me), [Owen](https://oagoebel.github.io/), [James](https://jamesweng.com/), and Ishaan.  
  - When/where do you meet?
@@ -21,4 +21,4 @@ Visit the [Notion board](https://handsomely-notify-e9a.notion.site/Research-Pape
  - What is your opinion on systemd?
     - It works.
 
-### 📚Library
+### 📚 Library

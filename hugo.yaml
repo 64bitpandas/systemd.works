@@ -30,3 +30,9 @@ menu:
       name: tags
       url: /tags/
       weight: 20
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
