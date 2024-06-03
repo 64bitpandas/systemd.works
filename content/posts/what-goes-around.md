@@ -3,7 +3,7 @@ title: What Goes Around Comes Around
 description: the history of data modeling
 summary: the history of data modeling
 tags: ["DBMS"]
-date: 2024-05-08
+date: 2024-05-19
 ---
 
 Stonebraker & Hellerstein, 2005 ([pdf](https://people.cs.umass.edu/~yanlei/courses/CS691LL-f06/papers/SH05.pdf))

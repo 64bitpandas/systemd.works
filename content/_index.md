@@ -8,7 +8,8 @@ Our goal is to make current systems research accessible and enjoyable for anyone
 Sound interesting? [**RSVP for the next session here.**](https://lu.ma/calendar/cal-iRO3oIDMdgOoGEE)
 
 ### 👀 Currently Reading
- - [SIEVE is Simpler than LRU: an Efficient Turn-Key Eviction Algorithm for Web Caches](https://yazhuozhang.com/assets/publication/nsdi24-sieve.pdf)
+ - [Memory resource management in VMware ESX server](https://dl.acm.org/doi/10.1145/844128.844146)
+ - [Raft - In Search of an Understandable Consensus Algorithm](https://raft.github.io/raft.pdf)
 
 ### 📆 Future Papers
 Visit the [Notion board](https://handsomely-notify-e9a.notion.site/Research-Papers-1fce23290ed841bba16c125c33d5bdec) to view the backlog and suggest new papers.
