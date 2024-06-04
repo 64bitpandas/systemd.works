@@ -1,4 +1,4 @@
-### **We read and discuss a research paper on computer systems every other Sunday.**
+### **We read and discuss at least one research paper on computer systems every other Sunday.**
 
  - Primary topics include databases, OS, compilers and networking.
  - We also read papers about AI/ML, security, and algorithms.
