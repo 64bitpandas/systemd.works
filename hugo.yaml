@@ -9,6 +9,7 @@ params:
   disableThemeToggle: true
   disableAnchoredHeadings: true
   hideFooter: true
+  defaultTheme: light
 
   editPost:
     URL: "https://github.com/64bitpandas/systemd.works/content"
