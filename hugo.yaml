@@ -23,6 +23,10 @@ menu:
       name: posts
       url: /posts/
       weight: 5
+    - identifier: quickstart
+      name: quickstart
+      url: /quickstart/
+      weight: 8
     - identifier: search
       name: search
       url: /search/
