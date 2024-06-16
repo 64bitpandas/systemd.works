@@ -1,4 +1,6 @@
 ---
+params:
+  math: true
 title: "SIEVE is Simpler than LRU: an Efficient Turn-Key Eviction Algorithm for Web Caches"
 description: a simpler-than-LRU cache that performs better than it on web cache workloads
 summary: a simpler-than-LRU cache that performs better than it on web cache workloads
@@ -23,7 +25,7 @@ This paper introduces and analyzes the SIEVE algorithm, a simple but high-effici
 
 **Access Patterns:** Web cache workloads typically follow a power-law (Zipfian) distribution, where a small portion of objects make up the majority of the requests. An important distinction from other cache use cases is that scan and loop/sequential access patterns are rare, and new objects are extremely common, being created every second.
 
-To expand on the power-law distribution, it follows a pattern where the $i^{th}$ most popular object has a relative frequency of $1/i^\alpha$. $\alpha$ here is a parameter determining skewness and has been found to range from 0.55 to 1.5 depending on type of workload, cache level, etc.
+To expand on the power-law distribution, it follows a pattern where the $i^{th}$ most popular object has a relative frequency of $\frac 1{i^\alpha}$. $\alpha$ here is a parameter determining skewness and has been found to range from 0.55 to 1.5 depending on type of workload, cache level, etc.
 
 **Efficient Cache Eviction Algorithms:** Many of the recent algorithms have greatly increased in complexity, using multiple LRU queues, machine learning, and so on. However, though they might perform better in certain workloads, the improvement is often not significant. In this way the increase in complexity outweighs the benefits.
 
