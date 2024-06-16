@@ -45,7 +45,7 @@ Every object in the queue uses 1 bit to track visited/non-visited status, with t
 
 - **Cache hits** set the visited bit of the cache line to 1.
   - This also happens to be lock-free, which improves throughput.
-- **Cache misses** look at the head pointer and set the visited bit to 0 if it is 1, moving the hand pointer.
+- **Cache misses** look at the hand pointer and set the visited bit to 0 if it is 1, moving the hand pointer.
   - Otherwise (`visited=0`) it will remove the eviction candidate from the cache, and move the hand pointer.
 
 This fulfills the idea of 'lazy promotion' by only promoting at eviction time, by keeping the object at the original location. Because "survived" objects are generally more popular than evicted ones, they will likely be accessed in the future as well. (similar to CLOCK algorithm).
