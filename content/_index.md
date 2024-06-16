@@ -19,6 +19,10 @@ Visit the [Notion board](https://handsomely-notify-e9a.notion.site/Research-Pape
     - [Ben](https://bencuan.me), [Owen](https://oagoebel.github.io/), [James](https://jamesweng.com/), and Ishaan.  
  - When/where do you meet?
     - Every other Sunday from 1:30-2:30pm. [RSVP here](https://lu.ma/calendar/cal-iRO3oIDMdgOoGEE) to get the Google Meet link. Some of us meet in person in San Francisco.
+ - I'm new here, can I get more info?
+    - Sure, [click here](/quickstart)!
+ - This website is awesome, how can I contribute?
+    - Make a pull request on [GitHub](https://github.com/64bitpandas/systemd.works).
  - What is your opinion on systemd?
     - It works.
 
