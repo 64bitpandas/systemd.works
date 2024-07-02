@@ -9,6 +9,7 @@ Sound interesting? [**RSVP for the next session here.**](https://lu.ma/calendar/
 
 ### 👀 Currently Reading
  - [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473)
+ - [What Goes Around Comes Around... And Around...](https://db.cs.cmu.edu/papers/2024/whatgoesaround-sigmodrec2024.pdf) (a throwback to the first-ever meeting of the group)
 
 ### 📆 Future Papers
 Visit the [Notion board](https://handsomely-notify-e9a.notion.site/Research-Papers-1fce23290ed841bba16c125c33d5bdec) to view the backlog and suggest new papers.
