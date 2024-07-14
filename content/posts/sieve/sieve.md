@@ -54,6 +54,9 @@ This fulfills the idea of 'lazy promotion' by only promoting at eviction time, b
 
 Then, the hand can quickly move towards the head where new objects are inserted, examining new objects shortly after admission. This achieves 'quick demotion'.
 
+
+![Sieve Simulation](/posts/sieve/sieve_diagram.gif)
+
 ### Key Differences
 
 Unlike other similar algorithms (CLOCK, LRU, FIFO/FIFO-Reinsertion), the eviction candidate is not necessarily the tail (or head) of the queue. However, inserted objects are always at the head of the queue. This means that new objects and older objects are not mixed together!

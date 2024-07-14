@@ -1,7 +1,8 @@
 baseURL: https://systemd.works/
 languageCode: en-us
 title: systemd.works
-theme: PaperMod
+theme: sdw-PaperMod
+
 
 params:
   env: production
