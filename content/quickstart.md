@@ -8,8 +8,9 @@ Welcome to systemd.works! If it's your first time joining, here are some resourc
 
 ## Quick References
  - **Google Meet link:** Check your RSVP email! (Unless something changes, this will be the same for every session)
+ - **Discord:** https://systemd.works/discord
  - **Current paper:** See the homepage (https://systemd.works)
- - **View/suggest backlog papers:** See the Notion page [here](https://handsomely-notify-e9a.notion.site/Research-Papers-1fce23290ed841bba16c125c33d5bdec)
+ - **View/suggest backlog papers:** See the Notion page (https://systemd.works/notion)
  - **View past discussion summaries:** See the posts page (https://systemd.works/posts)
 
 ## Schedule

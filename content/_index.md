@@ -5,19 +5,20 @@
 
 Our goal is to make current systems research accessible and enjoyable for anyone with a general interest in computer science.
 
-Sound interesting? [**RSVP for the next session here.**](https://lu.ma/calendar/cal-iRO3oIDMdgOoGEE)
+Sound interesting? [**RSVP for the next session here.**](/rsvp)
 
 ### 👀 Currently Reading
- - [Attention is all you need](https://arxiv.org/pdf/1706.03762)
+ - [Conflict-free replicating data types (2011)](https://inria.hal.science/inria-00609399/file/RR-7687.pdf)
+ - [How Figma's multiplayer technology works (2019)](https://www.figma.com/blog/how-figmas-multiplayer-technology-works/)
 
 ### 📆 Future Papers
-Visit the [Notion board](https://handsomely-notify-e9a.notion.site/Research-Papers-1fce23290ed841bba16c125c33d5bdec) to view the backlog and suggest new papers.
+Visit the [Notion board](/notion) to view the backlog and suggest new papers.
 
 ### ℹ️ FAQ
  - Who's running this?
-    - [Ben](https://bencuan.me), [Owen](https://oagoebel.github.io/), [James](https://jamesweng.com/), and Ishaan.  
+    - [Ben](https://bencuan.me), [Owen](https://oagoebel.github.io/), [James](https://jamesweng.com/), and [Ishaan](https://ishaandham.com/).  
  - When/where do you meet?
-    - Every other Sunday from 1:30-2:30pm. [RSVP here](https://lu.ma/calendar/cal-iRO3oIDMdgOoGEE) to get the Google Meet link. Some of us meet in person in San Francisco.
+    - Every other Sunday from 1:30-2:30pm. [RSVP here](/rsvp) to get the Google Meet link. Some of us meet in person in San Francisco.
  - I'm new here, can I get more info?
     - Sure, [click here](/quickstart)!
  - This website is awesome, how can I contribute?
