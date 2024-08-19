@@ -27,6 +27,10 @@ menu:
       name: quickstart
       url: /quickstart/
       weight: 8
+    - identifier: discord
+      name: discord
+      url: /discord/
+      weight: 9
     - identifier: search
       name: search
       url: /search/
