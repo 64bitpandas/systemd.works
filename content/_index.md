@@ -8,8 +8,7 @@ Our goal is to make current systems research accessible and enjoyable for anyone
 Sound interesting? [**RSVP for the next session here.**](/rsvp)
 
 ### 👀 Currently Reading
- - [Conflict-free replicating data types (2011)](https://inria.hal.science/inria-00609399/file/RR-7687.pdf)
- - [How Figma's multiplayer technology works (2019)](https://www.figma.com/blog/how-figmas-multiplayer-technology-works/)
+ - [Kerberos: An Authentication Service for Open Network Systems (1988)](https://www3.nd.edu/~dthain/courses/cse66771/summer2014/papers/kerberos.pdf)
 
 ### 📆 Future Papers
 Visit the [Notion board](/notion) to view the backlog and suggest new papers.
