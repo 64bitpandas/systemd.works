@@ -2,11 +2,11 @@
   /* max width for content container */
   --main-width: 800px;
   /* homepage background */
-  --code-bg: #f0eee9;
+  --code-bg: #fffefe;
   /* post background */
-  --theme: #f0eee9;
+  --theme: #fffefe;
   /* used by cards in /posts/ */
-  --entry: #f0eee9;
+  --entry: #fffefe;
 }
 
 .main {
