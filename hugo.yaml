@@ -22,13 +22,9 @@ menu:
       name: posts
       url: /posts/
       weight: 5
-    - identifier: quickstart
-      name: quickstart
-      url: /quickstart/
-      weight: 8
     - identifier: discord
       name: discord
-      url: /discord/
+      url: https://discord.gg/PAxwzBN4p4
       weight: 9
     - identifier: search
       name: search

@@ -2,9 +2,9 @@
   /* max width for content container */
   --main-width: 800px;
   /* homepage background */
-  --code-bg: #faf4ed;
+  --code-bg: #fffefe;
   /* post background */
-  --theme: #faf4ed;
+  --theme: #fffefe;
   /* used by cards in /posts/ */
   --entry: #fffefe;
 }
@@ -19,9 +19,10 @@ h1 {
 }
 
 .post-content h3,
-.post-content h2 {
+.post-content h2,
+.post-content h4 {
   font-family: "Libre Baskerville", serif;
-  margin: 56px auto 24px;
+  margin: 50px auto 24px;
 }
 
 .logo a {
@@ -43,13 +44,15 @@ header.header {
 }
 
 /* post cards on homepage */
-.first-entry .entry-header h2, .post-entry .entry-header h2 {
+.first-entry .entry-header h2,
+.post-entry .entry-header h2 {
   font-size: 24px;
   line-height: 1.3;
   font-weight: 400;
 }
 
-.first-entry, .post-entry {
+.first-entry,
+.post-entry {
   font-family: "Libre Baskerville", serif;
 }
 
