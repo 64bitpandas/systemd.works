@@ -9,6 +9,8 @@ date: 2024-07-14
 author: Ishaan Dham
 ---
 
+**This post is work in progress.**
+
 ## Introduction
 
 Consensus involves a collection of machines working together as a coherent group while being tolerant of failures.
@@ -21,7 +23,7 @@ Paxos (multi-Paxos) has been the consensus algorithm of choice since 1989 and is
 
 ## Terminology
 
-The terms defined below are commonly used when talking about distributed systems, and are used in other sections of this writeup. 
+The terms defined below are commonly used when talking about distributed systems, and are used in other sections of this writeup.
 
 **Non-Byzantine faults** - refers to failures such as network partitions, message loss, or server crashes that are expected in a distributed system. Whereas, Byzantine faults include malicious or arbitrary behavior of nodes, and require more complex fault tolerant mechanisms.
 
@@ -36,8 +38,7 @@ The terms defined below are commonly used when talking about distributed systems
 2. **Availability** - The system is fully functional as long as majority of the servers are operational.
 
 3. **Not Time Dependent** - The algorithm does not rely on time to maintain consistency due to the high possibility of faulty clocks and large delays.
-  (*Google ignores this property for* - [Spanner!](https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf))
-
+   (_Google ignores this property for_ - [Spanner!](https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf))
 
 Raft adheres to all of the above properties.
 
@@ -48,25 +49,23 @@ If the leader fails or is disconnected, a new leader is elected.
 
 At any given time each server is in one of three states: leader, follower, or candidate. Typically, there exists a leader and the remaining servers are followers.
 
-The nodes use the AppendEntries and RequestVote RPCs to communicate with each other. A leader sends AppendEntries RPCs to other nodes to replicate log entries, and also periodic heartbeats (AppendEntries RPC with no log entries) to maintain authority. The RequestVote RPC is used by 
+The nodes use the AppendEntries and RequestVote RPCs to communicate with each other. A leader sends AppendEntries RPCs to other nodes to replicate log entries, and also periodic heartbeats (AppendEntries RPC with no log entries) to maintain authority. The RequestVote RPC is used by
 
 (See [figure 2](https://raft.github.io/raft.pdf) for details about the RPCs)
 
-
 by decomposing the major pieces of the algorithm into relatively independent sub-problems.
-
 
 ### Leader Election
 
-* Heartbeat Mechanism - 
+- Heartbeat Mechanism -
 
-* Election Timeout - randomized to ensure split votes (multiple servers in *candidate* state) are rare.
+- Election Timeout - randomized to ensure split votes (multiple servers in _candidate_ state) are rare.
 
-* Voting - about RequestVote RPC
+- Voting - about RequestVote RPC
 
 ### Log Replication
 
-* 
+-
 
 Mention log compaction here
 
@@ -74,7 +73,7 @@ Mention log compaction here
 
 #### Demo
 
-This visualization demonstrates the Raft protocol in 5 node cluster. It allows interactions such as stopping, making requests, and timing out a given node. 
+This visualization demonstrates the Raft protocol in 5 node cluster. It allows interactions such as stopping, making requests, and timing out a given node.
 
 <iframe src="https://raft.github.io/raftscope/index.html" title="raft visualization" aria-hidden="true" style="border: 0; width: 800px; height: 580px; margin-bottom: 20px"></iframe>
 
@@ -82,35 +81,27 @@ This visualization demonstrates the Raft protocol in 5 node cluster. It allows i
 
 Mention client interaction here - requests go to the leader node
 
-
 ### Correctness
 
 TLA+
 
 ### Performance
 
-
-
 ## Conclusion
 
+Raft is used in -
 
-Raft is used in - 
-
-Ectd - 
+Ectd -
 
 Apache Kafka - https://cwiki.apache.org/confluence/display/KAFKA/KIP-500%3A+Replace+ZooKeeper+with+a+Self-Managed+Metadata+Quorum
 
 Hashicorp Consul uses Raft
 
-
-
-Readers that are interested in trying to implement Raft themselves 
+Readers that are interested in trying to implement Raft themselves
 
 1. [MIT Distributed Systems RAFT Lab](https://pdos.csail.mit.edu/6.824/labs/lab-raft.html)
 
 2. Maelstrom workbench that uses the Jepsen testing library to simulate network faults and latency - https://github.com/jepsen-io/maelstrom/blob/main/doc/06-raft/index.md
-
-
 
 ## References
 
@@ -118,4 +109,4 @@ Readers that are interested in trying to implement Raft themselves
 
 2. [Raft visualization](https://github.com/ongardie/raftscope)
 
-3. [Spanner](https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf) 
+3. [Spanner](https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)

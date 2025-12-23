@@ -1,7 +1,7 @@
 baseURL: https://systemd.works/
 languageCode: en-us
 title: systemd.works
-theme: sdw-PaperMod
+theme: PaperMod
 
 params:
   env: production
@@ -15,7 +15,6 @@ params:
     URL: "https://github.com/64bitpandas/systemd.works/tree/main/content"
     Text: "Edit this page" # edit text
     appendFilePath: true # to append file path to Edit link
-
 
 menu:
   main:
@@ -45,7 +44,7 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search
-  
+
 markup:
   goldmark:
     renderer:
